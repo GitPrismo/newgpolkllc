@@ -70,7 +70,7 @@ header a:hover{
 
 #showcase{
     min-height: 400px;
-    background:url("../images/fillershowcase.jpg")no-repeat -300px -450px;
+    background:url("../images/fillershowcase.jpg")no-repeat 0 ;
     text-align: center;
     color:#ffffff;
 }
