@@ -1,0 +1,161 @@
+body{
+    font:15px/1.5 'Raleway', sans-serif;
+    padding:0;
+    margin:0;
+    background-color:#f4f4f4;
+}
+
+/* Global */
+#container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+ul{
+    margin:0;
+    padding:0;
+}
+
+/* Header */
+header{
+    background:#4a5961;
+    color:#ffffff;
+    padding-top:30x;
+    min-height:70px;
+    border-bottom:#caac24 5px solid;
+}
+
+header a{
+    color:#ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+header li{
+    float:left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float:left;
+    
+}
+
+
+header #branding h1{
+    margin:0;
+}
+
+header nav{
+    float:right;
+    margin-top:60px;
+}
+
+header .highlight, header .current a{
+    color:#caac24;
+    font-weight: bold;
+}
+
+
+  
+header a:hover{
+    color:#c79898;
+    
+}
+
+  /* Showcase */
+
+#showcase{
+    min-height: 400px;
+    background:url("../images/fillershowcase.jpg")no-repeat -300px -450px;
+    text-align: center;
+    color:#ffffff;
+}
+
+#showcase h1{
+    margin-top:100px;
+    font-size:55px;
+    margin-bottom: 10px;
+}
+
+#showcase p{
+    font-size: 20px;
+}
+
+#info{
+    
+    padding:15px;
+    
+}
+
+#info h1{
+    font-weight: bold;
+    font-size:30px;
+}
+
+#info #exsec{
+    padding:10px;
+}
+
+#info .imgrespond{
+    width:100%;
+    height:auto;
+}
+
+footer{
+    padding:10px;
+    
+    background-color:#caac24;
+    text-align:center;
+
+}
+
+/* Style inputs with type="text", select elements and textareas */
+.email input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #477749;
+  }
+
+  @media screen and (max-width:992px) {
+
+    header nav{
+        float:left;
+        margin-top:20px;
+        font-size: 13px;
+    }
+
+    header a{
+        font-size: 16px;
+    }
+
+    header #branding img{
+       display:none;
+       float: left;
+    }
+    
+
+  }
