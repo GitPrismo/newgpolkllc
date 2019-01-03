@@ -105,6 +105,10 @@ header a:hover{
     height:auto;
 }
 
+#info li{
+ padding-left:10px;   
+}
+
 footer{
     padding:10px;
     
